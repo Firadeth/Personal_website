@@ -591,6 +591,10 @@ footer .social a:hover {
         padding: 0 20px;
     }
 
+    .container-large-footer .down {
+        display: none;
+    }
+
     .about-pic {
         display: none;
     }
