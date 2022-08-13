@@ -615,6 +615,11 @@ footer .social a:hover {
         width: 100%;
     }
 
+    .work .info {
+        opacity: 1;
+        background-color: rgba(25, 29, 40, .8);
+    }
+
     .nameZone, .emailZone {
         max-width: 100%;
     }
