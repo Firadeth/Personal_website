@@ -591,6 +591,10 @@ footer .social a:hover {
         padding: 0 20px;
     }
 
+    #home .content h1 {
+        font-size: 50px;
+    }
+
     .container-large-footer .down {
         display: none;
     }
