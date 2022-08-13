@@ -132,7 +132,7 @@ html {
 #home .content h1::after {
     color: #f3c87c;
     content: "Denis";
-    animation: textanim 10s linear infinite;
+    animation: textanim 15s linear infinite;
 }
 
 @keyframes textanim {
@@ -140,7 +140,7 @@ html {
         content: "Firadeth";
     }
     50% {
-        content: "Developer";
+        content: "Frontend Developer";
     }
     75% {
         content: "Gamer";
@@ -153,12 +153,17 @@ html {
     font-size: 16px;
     line-height: 30px;
 }
-
 #home .buttons {
+    display: flex;
     margin-top: 50px;
 }
 
-#home .buttons a {
+#home .button {
+    margin-right: 20px;
+}
+
+
+#home .button a {
     color: #f3c87c;
     font-size: 15px;
     font-weight: 500;
@@ -169,7 +174,7 @@ html {
     transition: .2s linear;
 }
 
-#home .buttons a:hover {
+#home .button a:hover {
     background-color: #f3c87c;
     color: #fff;
 }
@@ -285,7 +290,7 @@ html {
 
 .skill {
     width: calc(50% - 20px);
-    margin: 45px 0;
+    margin: 45px auto;
     padding-left: 50px;
 }
 
@@ -314,19 +319,15 @@ html {
 }
 
 .html::after {
-    width: 70%;
+    width: 40%;
 }
 
 .css::after {
-    width: 60%;
+    width: 30%;
 }
 
 .js::after {
     width: 5%;
-}
-
-.mysql::after {
-    width: 0%;
 }
 
 
@@ -384,7 +385,16 @@ html {
     color: #C6CAD6;
 }
 
-.work .info .buttons a {
+.work .info .buttons {
+    display: flex;
+    margin: 0 auto;
+}
+
+.work .info .button {
+    margin: 0 10px;
+}
+
+.work .info .button a {
     color: #f3c87c;
     font-size: 15px;
     font-weight: 500;
@@ -395,11 +405,10 @@ html {
     transition: .2s linear;
 }
 
-.work .info .buttons a:hover {
+.work .info .button a:hover {
     background-color: #f3c87c;
     color: #fff;
 }
-
 
 #contact {
     background-color: #191D28;
