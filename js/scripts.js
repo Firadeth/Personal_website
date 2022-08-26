@@ -35,5 +35,4 @@ window.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();
         section[3].scrollIntoView();
     });
-    console.log(section[3]);
 });

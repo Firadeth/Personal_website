@@ -152,12 +152,17 @@ html {
     }
 }
 
-#home .home-about {
+#home .home-about p {
     color: #C6CAD6;
     max-width: 50%;
     font-size: 16px;
     line-height: 30px;
+    text-indent: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    letter-spacing: 0;
 }
+
 #home .buttons {
     display: flex;
     margin-top: 50px;
@@ -240,6 +245,7 @@ html {
 .about-content h2 {
     color: #F3C87C;
     font-size: 30px;
+    margin-top: 20px;
 }
 
 .about-content h2 span {
@@ -264,6 +270,7 @@ html {
     font-size: 17px;
     text-align: justify;
     line-height: 26px;
+    text-indent: 20px;
 }
 
 .my-skills {
@@ -286,7 +293,7 @@ html {
 }
 
 .skills {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
