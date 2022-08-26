@@ -3,7 +3,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const ham = document.querySelector('.hamburger'),
           bar = document.querySelector('.navbar-menu'),
           links = bar.querySelectorAll('.navbar-item'),
-          section = document.querySelectorAll('section');
+          section = document.querySelectorAll('section'),
+          btnContact = document.querySelector('.btn-contact');
         
 
     ham.addEventListener('click', () => {
@@ -29,4 +30,10 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         }
     });
+
+    btnContact.addEventListener('click', (event) => {
+        event.preventDefault();
+        section[3].scrollIntoView();
+    });
+    console.log(section[3]);
 });
