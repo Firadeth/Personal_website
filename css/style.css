@@ -588,6 +588,10 @@ footer .social a:hover {
         max-width: 800px;
     }
 
+    #home .home-about p {
+        max-width: 100%;
+    }
+
     .about-pic {
         width: 200px;
         margin-right: 30px;

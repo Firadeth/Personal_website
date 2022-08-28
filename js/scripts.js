@@ -4,7 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
           bar = document.querySelector('.navbar-menu'),
           links = bar.querySelectorAll('.navbar-item'),
           section = document.querySelectorAll('section'),
-          btnContact = document.querySelector('.btn-contact');
+          btnContact = document.querySelector('.btn-contact'),
+          buttons = document.querySelectorAll('.button');
         
 
     ham.addEventListener('click', () => {
@@ -34,5 +35,10 @@ window.addEventListener('DOMContentLoaded', () => {
     btnContact.addEventListener('click', (event) => {
         event.preventDefault();
         section[3].scrollIntoView();
+    });
+
+    buttons[2].addEventListener('click', (event) => {
+        event.preventDefault();
+        alert("Сраница в ремонте!");
     });
 });
